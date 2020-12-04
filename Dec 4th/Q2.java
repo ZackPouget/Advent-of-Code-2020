@@ -6,6 +6,8 @@ public class Q2 {
     final static String[] required = {"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"};
     final static String[] validEcls = {"amb", "blu", "brn", "gry", "grn", "hzl", "oth"};
 
+    //Note: when working with strings, remember that regex is a thing
+
     static boolean validateByr(String str) {
         int index = str.indexOf("byr");
         if (index == -1 || index + 8 > str.length() || (index + 8 != str.length() && str.charAt(index + 8) != ' '))
