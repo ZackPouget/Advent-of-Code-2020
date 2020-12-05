@@ -48,7 +48,7 @@ public class Q2 {
                 }
             }
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
+            System.out.println("Input could not be found");
             e.printStackTrace();
         }
     }
