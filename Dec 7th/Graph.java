@@ -17,7 +17,6 @@ public class Graph {
     }
 
     public void explore(String node) {
-        int total = 0;
         try {
             Iterator<String> iterator = getEdges(node);
             while (iterator.hasNext()) {
